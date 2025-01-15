@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Siege machine (catapult) -->
+  <g id="siege" fill="none" stroke="#000" stroke-width="2">
+    <!-- Base platform -->
+    <rect x="20" y="70" width="60" height="10" fill="#8b4513"/>
+    <!-- Wheels -->
+    <circle cx="30" cy="85" r="8" fill="#8b4513"/>
+    <circle cx="70" cy="85" r="8" fill="#8b4513"/>
+    <!-- Main arm -->
+    <path d="M50 70 L50 30" stroke-width="4" stroke="#8b4513"/>
+    <!-- Throwing arm -->
+    <path d="M50 30 L80 20" stroke-width="3" stroke="#8b4513"/>
+    <!-- Counterweight -->
+    <rect x="40" y="20" width="20" height="15" fill="#666"/>
+    <!-- Projectile basket -->
+    <path d="M75 20 Q80 15 85 20 Q90 25 85 30 Q80 35 75 30 Z" fill="#8b4513"/>
+    <!-- Support structure -->
+    <path d="M30 70 L50 30 L70 70" stroke="#8b4513"/>
+  </g>
+</svg>
